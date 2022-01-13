@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 2424px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  width: 88.5%;
+  margin: 0 auto 85px auto;
+  min-height: 1400px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+  grid-gap: 57px;
+}
+
+.header__item-big {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.footer {
+  width: 100%;
+  min-height: 850px;
+  background-color: #1a1a1a;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  grid-gap: 0;
+}
+
+.footer__gallery-item {
+  height: 420px;
+}
+
+.footer__gallery-item:first-child {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/7.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/7.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:nth-child(2) {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/8.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/8.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:nth-child(3) {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/9.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/9.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:nth-child(4) {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/10.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/10.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:nth-child(5) {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/11.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/11.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:nth-child(6) {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/12.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/12.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:nth-child(7) {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/13.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/13.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__gallery-item:last-child {
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(100%, rgba(26, 26, 26, 0.5)), to(white)), url(../1-assets/14.jpg);
+  background-image: linear-gradient(0deg, rgba(26, 26, 26, 0.5) 100%, white 100%), url(../1-assets/14.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=main.css.map */
